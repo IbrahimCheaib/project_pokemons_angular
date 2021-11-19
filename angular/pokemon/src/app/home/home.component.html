@@ -32,7 +32,7 @@
 </div>
 <section class="col-md-8 mx-auto">
     <div class="row">
-        <div class="col-md-2 card" *ngFor="let pokemon of pokemons">
+        <div class="col-md-3 card" *ngFor="let pokemon of pokemons">
             <a [routerLink]="['detail',pokemon.id]">
                 <img [src]="pokemon.picture" alt="">
                 <div class="card-body">
